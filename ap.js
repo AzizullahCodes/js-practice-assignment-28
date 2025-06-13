@@ -254,3 +254,44 @@ checkMorningPerson(enterName)*/
 // let result2 = result - 10;
 // console.log(result)
 // console.log(result2)
+// ____________________________________________________________________________________
+// ques no 16 
+// return name
+// ans 
+// function showFullName(fName,lName){var name = fName + ' '+ lName;
+//   return name;
+// }
+// var renderName = showFullName('Muhammad','Ahmed');
+// console.log(renderName);
+// _______________________________________________________________________________________
+// ques no 17
+// 
+// ans 
+// function handleSquareRoot(num){return num * num}
+
+// function handleEquation(a,b){console.log('a',a);
+//   console.log('b',b);
+//   var eq = handleSquareRoot(a) -(2*a*b) + handleSquareRoot(b);
+//   console.log(eq)
+// }
+// handleEquation(6,3)
+// ______________________________________________________________________________________
+// ques no 18
+// :
+// Write a function that takes a number and returns whether it is even or odd.
+// ans 
+// let number = Number(prompt('enter a number'));
+// function check(number){if(number % 2 === 0){console.log('Number is even')}
+// else{console.log('Number is odd')}}
+// check(number);
+// _______________________________________________________________________________
+// ques no 19
+// 
+// Write a function that takes a number and returns its square.
+// ans 
+function squareCreator(number){let output= number * number;
+  return output;
+ }
+let number = Number(prompt('enter number'));
+let result =  squareCreator(number);
+console.log(result);
