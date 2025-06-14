@@ -289,9 +289,137 @@ checkMorningPerson(enterName)*/
 // 
 // Write a function that takes a number and returns its square.
 // ans 
-function squareCreator(number){let output= number * number;
-  return output;
- }
-let number = Number(prompt('enter number'));
-let result =  squareCreator(number);
-console.log(result);
+// function squareCreator(number){let output= number * number;
+//   return output;
+//  }
+// let number = Number(prompt('enter number'));
+// let result =  squareCreator(number);
+// console.log(result);
+// _____________________________________________________________________________________
+// ques no 20
+// Create a function greetUser(name) that takes a name as an argument and prints:
+// "Hello, [name]!"
+// Call it with different names to check.
+// ans 
+// let enterUser = prompt('enter user name');
+//     enterUser = enterUser.toUpperCase();
+// function greetUser(enterName){console.log('Hello',enterUser)}
+// greetUser(enterUser)
+// _______________________________________________________________________________________
+// ques no 21
+//  Add Two Numbers
+// Write a function addNumbers(a, b) that returns the sum of two numbers.
+// Call it with different values and print the result.
+// ans 
+// let a = Number(prompt('enter number 1'));
+// let b = Number(prompt('enter number 2'));
+// function addNumbers(a,b){let sum = a + b;
+//   return sum;
+// }
+//  let bc =  addNumbers(a,b);
+//  console.log(bc)
+  // ______________________________________________________________________________
+  // ques no 22 
+  // Check Even or Odd
+// Write a function isEven(num) that checks if a number is even or odd.
+// If even, return "Even"; if odd, return "Odd".
+// ans 
+// let num = Number(prompt('enter number'))
+// function isEven(num){if(num % 2 === 0){console.log('Even')}
+// else{console.log('Odd')}}
+// isEven(num)
+// ___________________________________________________________________________________
+// ques no 23
+//  Convert Minutes to Seconds
+// Create a function minutesToSeconds(minutes) that converts minutes to seconds and returns the value.
+// Call it with different minutes.
+// ans 
+let minutes = Number(prompt('enter minutes'));
+  function minutesToSeconds(minutes){let result = minutes * 60;
+  return result;
+  }
+  let output = minutesToSeconds(minutes);
+  console.log(output)
+// ________________________________________________________________________________________
+// ques no 24 
+// Find the Larger Number
+// Create a function findLarger(a, b) that returns the larger of two numbers.
+// ans 
+// let a = Number(prompt('enter number one'));
+// let b = Number(prompt('enter number 2'));
+// function findLarger(a,b){if(a > b){console.log(a)}
+// else if(b > a){console.log(b)}
+// else{console.log('both numbers are equal')}}
+// findLarger(a,b)
+// _____________________________________________________________________________________
+// ques no 25
+//  Square a Number
+// Write a function square(num) that returns the square of a number.
+// ans 
+// let num = parseFloat(prompt('enter number'));
+// function square(num){let square = num * num;
+//   return square;
+// }
+// let result = square(num);
+// console.log(result);
+// ______________________________________________________________________________
+// ques no 26 
+// Age in Days
+// Write a function ageInDays(age) that takes age in years and returns age 
+// in days (assume 1 year = 365 days).
+// ans 
+// let age = parseFloat(prompt('ener your age in years'));
+// function ageInDays(age){let result = age * 365;
+//   return result;
+// }
+// let output = ageInDays(age);
+// console.log(output + ' ' + 'days');
+// ___________________________________________________________________________________
+// ques no 27
+// Repeat a String
+// Create a function repeatString(str, times) that repeats a string the 
+// given number of times and returns it.
+// ans 
+// Function to repeat a string a given number of times
+function repeatString(str, times) {
+  // Create a variable to store the final repeated string
+  let result = "";
+
+  // Use a for loop to repeat the string 'times' times
+  for (let i = 0; i < times; i++) {
+    result += str; // Add the string to the result each time
+  }
+
+  // Return the final repeated string
+  return result;
+}
+
+// Example: Call the function and print the result
+console.log(repeatString("Hello ", 3)); // Output: Hello Hello Hello 
+console.log(repeatString("JS", 5));     // Output: JSJSJSJSJS
+
+// _______________________________________________________________________________
+// ques no 28
+// Calculate Area of Rectangle
+// Write a function areaOfRectangle(width, height) that returns the area.
+// ans 
+// let width = Number(prompt('enter width'));
+// let height = Number(prompt('enter height'));
+// function areaOfRectangle(width,height){let area = width * height;
+//   return area;
+// }
+//  let result = areaOfRectangle(width,height);
+//  console.log(result);
+// ______________________________________________________________________________________
+// ques no 29
+//  Get First Character
+// Create a function getFirstChar(str) that returns the first character of 
+// a string.
+// ans 
+// let str = prompt('etner string');
+// function getFirstChar(str){ let result = str.charAt();
+//   return result;
+// }
+// let output = getFirstChar(str);
+//    output = output.toUpperCase();
+// console.log(output);
